@@ -3,7 +3,7 @@
 
 body {
     color : #2e3440;
-    background-color: #FFDF85;
+    background-color: #e3e7ff;
     font-family: 'Roboto', sans-serif;
     width: 100vw;
     height: 100vh;
@@ -26,13 +26,16 @@ h2, h3 {
 
 a {
     font-size: 18pt;
-    font-weight: bolder;
     text-decoration: none;
     color: #ff7077;
-    /*padding-left: 0%;*/
+    font-weight: lighter;
     vertical-align: center;
     white-space: nowrap;
+}
 
+a:hover{
+    font-weight: bold;
+    color: #FAFBFF;
 }
 
 .links {
